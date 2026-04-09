@@ -1,4 +1,4 @@
-# 📅 School Schedule Generator
+# School Schedule Generator
 
 An Artificial Intelligence agent developed in Python to automatically generate and optimize school timetables. This project uses **Constraint Programming (CSP)** to solve complex scheduling problems, ensuring all strict requirements are met while optimizing for quality preferences like consecutive classes and balanced weeks.
 
@@ -7,7 +7,7 @@ An Artificial Intelligence agent developed in Python to automatically generate a
 
 ---
 
-## 📝 Project Overview
+## Project Overview
 
 The goal of this project is to create an efficient solution for educational institutions that respects various constraints such as room availability, teacher schedules, and class load distribution.
 
@@ -15,7 +15,7 @@ The problem is modeled as a CSP (Constraint Satisfaction Problem) where the agen
 
 ---
 
-## ⚙️ Prerequisites & Installation
+## Prerequisites & Installation
 
 This project requires **Python 3** and the `python-constraint` library.
 
@@ -27,7 +27,7 @@ pip install python-constraint
 ```
 ---
 
-## 🔒 Constraints
+## Constraints
 
 The agent applies two types of rules to generate the schedule.
 
@@ -56,7 +56,7 @@ These rules are used to score valid solutions to find the "best" one.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 You can run the project using either the Jupyter Notebook or the standalone Python script.
 
 ### Option A: Using Python Script (Recommended)
